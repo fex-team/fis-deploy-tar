@@ -1,0 +1,20 @@
+{
+  "name": "fis-deploy-tar",
+  "version": "0.0.0",
+  "description": "fis tar deploy plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fis",
+    "deploy",
+    "tar",
+    "plugin"
+  ],
+  "author": "FIS",
+  "license": "BSD",
+  "dependencies": {
+    "tar-stream": "^1.0.0"
+  }
+}
