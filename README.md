@@ -28,7 +28,7 @@ fis.config.set('settings.deploy.tar', {
         gzip: true,
         level: 0,
         memLevel: 6,
-        file: './output/output.tar'
+        file: './output/output.tar.gz'
     }
 });
 ```
