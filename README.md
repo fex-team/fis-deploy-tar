@@ -26,8 +26,8 @@ fis.config.set('settings.deploy.tar', {
         from : '/',
         to: '/',
         gzip: true,
-        level: 0,
-        memLevel: 6,
+        level: 0, //压缩质量 0-9，越大压缩比越高
+        memLevel: 6, //压缩使用的内存量 1-9， 越大占用内存越多，执行速度越快
         file: './output/output.tar.gz'
     }
 });
