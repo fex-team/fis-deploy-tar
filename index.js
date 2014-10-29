@@ -54,7 +54,7 @@ module.exports = function(files, settings, callback) {
                 + ']: Maybe this file is neither in current project or releasable');
         }
         var name = ((fileInfo.dest.to || '/') + fileInfo.dest.release).replace(/^\/*/g, '');
-        pack.entry({ name: name }, file.getContent());
+        pack.entry({ name: name }, fileInfo.content);
         fis.log.debug('[fis-deploy-tar] pack file [' + name + ']');
     });
 
